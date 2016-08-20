@@ -1,0 +1,40 @@
+netbeans快捷键
+Zen Coding 是一种快速编写HTML/CSS代码的方法，集成到Netbeans中很简单
+Zen Coding
+Zen Coding
+
+ 
+1.去这里下载Netbeans的Zen Coding的插件（org-lorenzos-zencoding-0.9.nbm） https://github.com/lorenzos/ZenCodingNetBeansPlugin#readme
+2.打开Netbeans>工具>选项>插件>已下载>添加插件 然后选中下载Zen Coding插件安装
+3.重启动Netbeans。
+这样就安装完成来了，在Netbeans>编辑中就会看到Zen Coding的以及级联的快捷键菜单了，新建一个html文件，输入：
+link:css
+然后快捷键 Ctrl+Alt+n是不是就自动完成了代码：
+<link rel=”stylesheet” type=”text/css” href=”${1:style}.css” media=”all” />
+详细用法：
+Expand abbreviation
+Fill a HTML/CSS code line with Zen syntax, then press CTRL+ALT+N, or click the toolbar button, or go to menu Edit > Zen Coding > Expand Zen code, or press Alt+Insert and choose Expand Zen Code.
+
+Match Pair
+Just press CTRL+ALT+M or go to menu Edit > Zen Coding > Match Pair.
+
+Wrap with Abbreviation
+Select something, press CTRL+ALT+W or go to menu Edit > Zen Coding > Wrap with Abbreviation, then insert a Zen code abbreviation in the input popup.
+
+Merge Lines
+Select multiple lines, then press CTRL+ALT+L or go to menu Edit > Zen Coding > Merge Lines.
+
+Also available in the Edit > Zen Coding menu:
+Remove Tag
+Split/Join Tag
+Toggle Comment
+Go to Next / Previous Edit Point
+Evaluate Math Expression
+Increment / Decrement number by 1 / 10 / 0.1
+这里共享一份 ZenCodingCheatSheet.pdf，让写HTML+CSS效率速度飞起来！
+
+
+-----------------------------
+div#liu+div.kai+span#testing+p.zencoding   
+sublime text中Ctrl+Alt+Enter  调出Zen Coding（emmet）  esc关闭Zen Coding（emmet）
+netNeans中    Ctrl+Alt+n 调出Zen Coding
